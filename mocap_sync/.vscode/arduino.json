@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "programmer": "avrisp",
+    "port": "COM3",
+    "sketch": "mocap_sync.ino"
+}
