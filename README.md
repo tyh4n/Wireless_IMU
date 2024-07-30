@@ -14,6 +14,12 @@ Each unit comprises the following components:
 
 <img src="pics/inside.jpg" alt="inside" width="300" style="display:block; margin-left:auto; margin-right:auto;"/>
 
+## User Interface
+
+A user interface based on `pyqt6` is developed for easier use. 
+
+<img src="pics/ui.png" alt="ui" width="300" style="display:block; margin-left:auto; margin-right:auto;"/>
+
 ## Synchronization
 Due to the wireless nature of the IMUs, synchronizing with other measuring devices can be challenging. A separate Arduino Uno is used to receive sync signals and communicate with the PC via a serial port. For more details, refer to `imu_recording.py` and `mocap_sync`.
 
